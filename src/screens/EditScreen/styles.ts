@@ -1,0 +1,58 @@
+// styles.ts
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {flex: 1, padding: 20},
+  center: {flex: 1, justifyContent: 'center', alignItems: 'center'},
+  scrollContainer: {paddingBottom: 100},
+  avatarWrapper: {
+    width: 100,
+    height: 100,
+    borderRadius: 20,
+    overflow: 'hidden',
+    alignSelf: 'center',
+    marginTop: 16,
+    borderWidth: 1,
+    borderColor: '#ccc',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'relative',
+  },
+  avatar: {width: '100%', height: '100%', resizeMode: 'cover'},
+  plusIconContainer: {
+    position: 'absolute',
+    bottom: 0,
+    right: 0,
+    backgroundColor: '#007bff',
+    width: 30,
+    height: 30,
+    borderRadius: 15,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  plusIcon: {color: 'white', fontSize: 20},
+  saveButton: {
+    backgroundColor: '#007bff',
+    padding: 15,
+    borderRadius: 10,
+    alignItems: 'center',
+    marginTop: 20,
+  },
+  disabledButton: {backgroundColor: '#gray', opacity: 0.6},
+  saveButtonText: {color: 'white', fontSize: 16, fontWeight: 'bold'},
+  fieldContainer: {marginTop: 20},
+  detailItem: {marginBottom: 20},
+  detailLabel: {
+    fontSize: 15,
+    color: '#000',
+    fontWeight: '500',
+    marginBottom: 8,
+  },
+  detailBox: {
+    backgroundColor: '#F6F8FB',
+    borderRadius: 8,
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+  },
+  detailInput: {fontSize: 16, color: '#000'},
+});

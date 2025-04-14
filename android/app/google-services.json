@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "169606501021",
+    "project_id": "carbooking-b75fd",
+    "storage_bucket": "carbooking-b75fd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169606501021:android:1b46c2404940402580fa74",
+        "android_client_info": {
+          "package_name": "com.fbgsoft.nicego"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5jMCsCWgJ35vm34KKTjnObXFGa1SrpzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

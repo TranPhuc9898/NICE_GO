@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>BGTaskSchedulerPermittedIdentifiers</key>
+		<array>
+			<string>com.fbgsoft.nicego.test</string>
+			<string>com.fbgsoft.nicego</string>
+		</array>
+		<key>CFBundleDevelopmentRegion</key>
+		<string>en</string>
+		<key>CFBundleDisplayName</key>
+		<string>Nice Go</string>
+		<key>CFBundleExecutable</key>
+		<string>$(EXECUTABLE_NAME)</string>
+		<key>CFBundleIdentifier</key>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+		<key>CFBundleInfoDictionaryVersion</key>
+		<string>6.0</string>
+		<key>CFBundleName</key>
+		<string>$(PRODUCT_NAME)</string>
+		<key>CFBundlePackageType</key>
+		<string>APPL</string>
+		<key>CFBundleShortVersionString</key>
+		<string>$(MARKETING_VERSION)</string>
+		<key>CFBundleSignature</key>
+		<string>????</string>
+		<key>CFBundleVersion</key>
+		<string>$(CURRENT_PROJECT_VERSION)</string>
+		<key>FirebaseAppDelegateProxyEnabled</key>
+		<true />
+		<key>LSRequiresIPhoneOS</key>
+		<true />
+		<key>NSAppTransportSecurity</key>
+		<dict>
+			<key>NSAllowsArbitraryLoads</key>
+			<true />
+			<key>NSAllowsArbitraryLoadsInWebContent</key>
+			<true />
+			<key>NSExceptionDomains</key>
+			<dict>
+				<key>car.1dev.icu</key>
+				<dict>
+					<key>NSIncludesSubdomains</key>
+					<true />
+					<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+					<true />
+				</dict>
+			</dict>
+		</dict>
+		<key>NSAppleMusicUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSBluetoothAlwaysUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSBluetoothPeripheralUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSCalendarsFullAccessUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSCalendarsUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSCameraUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSContactsUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSFaceIDUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSLocationAlwaysUsageDescription</key>
+		<string>We need your location to provide background updates</string>
+		<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+		<dict>
+			<key>YOUR-PURPOSE-KEY</key>
+			<string>[REASON]</string>
+		</dict>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>We need your location to show your current position</string>
+		<key>NSMicrophoneUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSMotionUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSPhotoLibraryAddUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>We need access to your photos to upload avatar</string>
+		<key>NSRemindersFullAccessUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSSiriUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSSpeechRecognitionUsageDescription</key>
+		<string>[REASON]</string>
+		<key>NSUserTrackingUsageDescription</key>
+		<string>[REASON]</string>
+		<key>UIAppFonts</key>
+		<array>
+			<string>AntDesign.ttf</string>
+			<string>Entypo.ttf</string>
+			<string>EvilIcons.ttf</string>
+			<string>Feather.ttf</string>
+			<string>FontAwesome.ttf</string>
+			<string>FontAwesome5_Brands.ttf</string>
+			<string>FontAwesome5_Regular.ttf</string>
+			<string>FontAwesome5_Solid.ttf</string>
+			<string>Foundation.ttf</string>
+			<string>Ionicons.ttf</string>
+			<string>MaterialIcons.ttf</string>
+			<string>MaterialCommunityIcons.ttf</string>
+			<string>SimpleLineIcons.ttf</string>
+			<string>Octicons.ttf</string>
+			<string>Zocial.ttf</string>
+			<string>Fontisto.ttf</string>
+		</array>
+		<key>UIBackgroundModes</key>
+		<array>
+			<string>fetch</string>
+			<string>processing</string>
+			<string>remote-notification</string>
+			<string>location</string>
+			<string>nearby-interaction</string>
+			<string>bluetooth-central</string>
+		</array>
+		<key>UILaunchStoryboardName</key>
+		<string>LaunchScreen</string>
+		<key>UISupportedInterfaceOrientations</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>UIViewControllerBasedStatusBarAppearance</key>
+		<false />
+	</dict>
+</plist>

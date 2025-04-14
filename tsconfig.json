@@ -1,0 +1,35 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-native",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "paths": {
+      "@/*": ["src/*"],
+      "@redux/*": ["src/redux/*"],
+      // "tests": ["tests/*"],
+       "@components/*": ["./src/components/*"],
+       "@src/*": ["src/*"],
+       "@images/*": ["/src/assets/images/*"],
+       "@icons/*": ["/src/assets/icons/*"],
+       "@apis/*": ["/src/apis/*"],
+       "@screens/*": ["src/screens/*"],
+       "@helper/*": ["src/libs/helper/*"],
+       "@i18n/*": ["src/libs/localization/*"],
+       "@config/*": ["src/libs/config/*"],
+       "@hooks/*": ["src/hooks/*"],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ],
+  "ts-node": {
+    "files": true
+  },
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCNzLxY6KKeZ8XL8z_yyyqtEw7KrPMeA-8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>169606501021</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.fbgsoft.nicego</string>
+	<key>PROJECT_ID</key>
+	<string>carbooking-b75fd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>carbooking-b75fd.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:169606501021:ios:740cab51b72e9bbf80fa74</string>
+</dict>
+</plist>
